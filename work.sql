@@ -1,0 +1,3 @@
+-- CREATING A DATABASE
+CREATE DATABASE student_system;
+
