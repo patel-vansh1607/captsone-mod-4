@@ -27,6 +27,9 @@ ALTER TABLE students ADD COLUMN dob DATE;
 -- ALTER courses to add instructor_id
 ALTER TABLE courses ADD COLUMN instructor_id INT REFERENCES instructors(id);
 
+-- DOB COLUMN
+ALTER TABLE students ADD COLUMN dob DATE;
+
 -- MOCK DATA INTO DEPARTMENTS TABLE
 INSERT INTO departments (name) VALUES
 ('Computer Science'),
@@ -52,4 +55,17 @@ INSERT INTO instructors (name, email, department_id) VALUES
 ('Dr. Henry Zhao', 'henry.zhao@example.com', 8),
 ('Dr. Irene Park', 'irene.park@example.com', 9),
 ('Dr. Jack Singh', 'jack.singh@example.com', 10);
+
+-- MOCK DATA INTO COURSES TABLE
+INSERT INTO courses (name, credits, department_id, instructor_id) VALUES
+('Intro to Programming', 4, 1, 1),
+('Data Structures', 3, 1, 1),
+('Calculus I', 4, 2, 2),
+('Linear Algebra', 3, 2, 2),
+('Classical Mechanics', 4, 3, 3),
+('Organic Chemistry', 4, 4, 4),
+('Genetics', 3, 5, 5),
+('British Literature', 3, 6, 6),
+('World History', 3, 7, 7),
+('Microeconomics', 4, 9, 9);
 
