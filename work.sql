@@ -30,6 +30,12 @@ ALTER TABLE courses ADD COLUMN instructor_id INT REFERENCES instructors(id);
 -- DOB COLUMN
 ALTER TABLE students ADD COLUMN dob DATE;
 
+-- DEPARTMENT_ID COLUMN
+ALTER TABLE courses ADD COLUMN department_id INT REFERENCES departments(id);
+
+-- INSTRUCTORS ID
+ALTER TABLE courses ADD COLUMN instructor_id INT REFERENCES instructors(id);
+
 -- MOCK DATA INTO DEPARTMENTS TABLE
 INSERT INTO departments (name) VALUES
 ('Computer Science'),
