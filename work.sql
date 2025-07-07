@@ -82,3 +82,20 @@ INSERT INTO students (name, email, dob) VALUES
 ('Isla Reed', 'isla.reed@example.com', '2003-07-19'),
 ('Jake Ford', 'jake.ford@example.com', '2002-09-01');
 
+-- MOCK DATA INTO ENROLLMENTS TABLE
+INSERT INTO enrollments (student_id, course_id, enrolled_on) VALUES
+(1, 1, '2024-09-01'),
+(1, 2, '2024-09-01'),
+(2, 3, '2024-09-01'),
+(3, 4, '2024-09-01'),
+(4, 5, '2024-09-01'),
+(5, 6, '2024-09-01'),
+(6, 7, '2024-09-01'),
+(7, 8, '2024-09-01'),
+(8, 9, '2024-09-01'),
+(9, 10, '2024-09-01'),
+(10, 1, '2024-09-01'),
+(2, 2, '2024-09-01'),
+(3, 3, '2024-09-01'),
+(4, 4, '2024-09-01'),
+(5, 5, '2024-09-01');
