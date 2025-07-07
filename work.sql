@@ -20,3 +20,9 @@ CREATE TABLE departments (id SERIAL PRIMARY KEY, name VARCHAR(100) UNIQUE NOT NU
 -- CREATING INSTRUCTORS TABLE
 CREATE TABLE instructors (id SERIAL PRIMARY KEY, name VARCHAR(100) NOT NULL,email VARCHAR(100) UNIQUE NOT NULL,
 department_id INT REFERENCES departments(id));
+
+-- ALTER students to add dob (optional)
+ALTER TABLE students ADD COLUMN dob DATE;
+
+-- ALTER courses to add instructor_id
+ALTER TABLE courses ADD COLUMN instructor_id INT REFERENCES instructors(id);
