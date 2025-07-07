@@ -18,11 +18,11 @@ This project demonstrates a well-structured relational database system using **P
 ## Entity-Relationship (ER) Diagram
 ---
 Checking if all tables exists 
-![ER Diagram](./diagrams/1.png)
+[ER Diagram](./diagrams/1.png)
 
 ---
 Checking if all tables exists 
-![ER Diagram](./diagrams/1.png)
+[ER Diagram](./diagrams/1.png)
 ---
 
 ## Schema Design
