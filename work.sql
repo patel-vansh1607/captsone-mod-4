@@ -105,3 +105,9 @@ INSERT INTO enrollments (student_id, course_id, enrolled_on) VALUES
 (3, 3, '2024-09-01'),
 (4, 4, '2024-09-01'),
 (5, 5, '2024-09-01');
+
+-- JOINING TABLES TO GET STUDENTS AND THEIR ENROLLED COURSES
+SELECT s.name AS student, c.name AS course, e.enrolled_on
+FROM enrollments e
+JOIN students s ON e.student_id = s.id
+JOIN courses c ON e.course_id = c.id;

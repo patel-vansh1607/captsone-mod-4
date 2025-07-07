@@ -18,12 +18,48 @@ This project demonstrates a well-structured relational database system using **P
 ## Entity-Relationship (ER) Diagram
 ---
 Checking if all tables exists 
-[ER Diagram](./diagrams/1.png)
+![ER Diagram](./diagrams/1.png)
 
 ---
-Checking if all tables exists 
-[ER Diagram](./diagrams/1.png)
+Courses Table
+![ER Diagram](./diagrams/2.png)
 ---
+Students Table
+![ER Diagram](./diagrams/3.png)
+---
+Enrollments Table
+![ER Diagram](./diagrams/4.png)
+---
+Departments Table
+![ER Diagram](./diagrams/5.png)
+---
+Instructors Table
+![ER Diagram](./diagrams/6.png)
+---
+Data from Students Table
+![ER Diagram](./diagrams/7.png)
+---
+Data from Courses Table
+![ER Diagram](./diagrams/8.png)
+---
+Data from Departments Table
+![ER Diagram](./diagrams/9.png)
+---
+Data from Instructors Table
+![ER Diagram](./diagrams/10.png)
+---
+Data from Enrollments Table
+![ER Diagram](./diagrams/11.png)
+---
+Testing a Join
+![ER Diagram](./diagrams/12.png)
+---
+Checking Relationships
+![ER Diagram](./diagrams/13.png)
+---
+
+
+
 
 ## Schema Design
 
