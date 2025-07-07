@@ -39,3 +39,17 @@ INSERT INTO departments (name) VALUES
 ('Psychology'),
 ('Economics'),
 ('Philosophy');
+
+-- MOCK DATA INTO INSTRUCTORS TABLE
+INSERT INTO instructors (name, email, department_id) VALUES
+('Dr. Alice Kim', 'alice.kim@example.com', 1),
+('Dr. Bob Lee', 'bob.lee@example.com', 2),
+('Dr. Carol Tan', 'carol.tan@example.com', 3),
+('Dr. David Wong', 'david.wong@example.com', 4),
+('Dr. Eva Patel', 'eva.patel@example.com', 5),
+('Dr. Frank Jones', 'frank.jones@example.com', 6),
+('Dr. Grace Liu', 'grace.liu@example.com', 7),
+('Dr. Henry Zhao', 'henry.zhao@example.com', 8),
+('Dr. Irene Park', 'irene.park@example.com', 9),
+('Dr. Jack Singh', 'jack.singh@example.com', 10);
+
