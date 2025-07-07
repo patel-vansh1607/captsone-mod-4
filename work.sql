@@ -69,3 +69,16 @@ INSERT INTO courses (name, credits, department_id, instructor_id) VALUES
 ('World History', 3, 7, 7),
 ('Microeconomics', 4, 9, 9);
 
+-- MOCK DATA INTO STUDENTS TABLE
+INSERT INTO students (name, email, dob) VALUES
+('Anna White', 'anna.white@example.com', '2003-04-12'),
+('Ben Green', 'ben.green@example.com', '2002-06-21'),
+('Cindy Black', 'cindy.black@example.com', '2001-11-09'),
+('David Brown', 'david.brown@example.com', '2003-02-17'),
+('Ella Stone', 'ella.stone@example.com', '2002-08-29'),
+('Felix Knight', 'felix.knight@example.com', '2003-12-05'),
+('Grace Moon', 'grace.moon@example.com', '2001-05-14'),
+('Harry Clark', 'harry.clark@example.com', '2002-01-23'),
+('Isla Reed', 'isla.reed@example.com', '2003-07-19'),
+('Jake Ford', 'jake.ford@example.com', '2002-09-01');
+
